@@ -4,7 +4,8 @@ import Login from './Pages/Login';
 import Signup from './Pages/Signup';
 import Home from './Pages/Home';
 import { useState } from 'react';
-import RefrshHandler from './RefrshHandler';
+import RefreshHandler from "./RefreshHandler";   // ✅ correct spelling
+
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
